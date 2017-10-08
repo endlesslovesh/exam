@@ -1,0 +1,73 @@
+body {
+    position: absolute;
+    left: 0;
+    top: 0; 
+    bottom: 0;
+    right: 0;
+    font-size: 0.12rem;
+    background: #f2f2fe;
+}
+.header {
+    height: 0.5rem;
+    border-bottom: 1px solid #ccc; 
+    margin-bottom: 0.1rem;
+    background: #fff;
+}
+.header li {
+    width: 33.3333%;
+    height: inherit;
+    float: left;
+    text-align: center;
+}
+.header li span {
+    height: inherit;
+    line-height: 0.5rem;
+    display: inline-block;
+    color: #999;
+    box-sizing: border-box;
+}
+.active {
+    color: #617ef6!important;
+    border-bottom: 2px solid #617ef6; 
+}
+.banner {
+    background: #fff;
+}
+.small {
+    height: 1rem;
+    background: #fd6060;
+    margin: .1rem .2rem .1rem .2rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.top {
+    height: 0.6rem;
+    padding: 0.1rem;
+    box-sizing: border-box;
+}
+.topleft {
+    float: left;
+    color: #fff;
+    font-size: 0.3rem;
+}
+.topright {
+    float: right;
+    color: #fff;
+    font-size: 0.24rem;
+}
+.foot {
+    height: 0.4rem;
+    background: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 0.1rem;
+    padding-top: 0.02rem;
+    box-sizing: border-box;
+}
+.foot p {
+    color: green;
+}
+.foot p:last-child {
+    color: #999;
+}
